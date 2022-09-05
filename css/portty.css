@@ -34,10 +34,6 @@ li {
     color: white;
     cursor: pointer;
 }
-.P1{
-    height: 580px;
-    width: 100%;
-}
 .left {
     position: absolute;
     width: 660px;
@@ -49,12 +45,6 @@ li {
     width: 660px;
     height: 600px;
     left:700px;
-}
-.hlight {
-    color: white;
-    font-size: 55px;
-    margin-left: 100px;
-    margin-top: 50px;
 }
 .work {
     background-color: transparent;
@@ -290,10 +280,6 @@ li {
     top: 1229.5px;
     height: 480px;
 }
-
-
-
-
 .gallery {
     display: flex;
     padding: 2px;
@@ -340,4 +326,75 @@ li {
     opacity: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     transition: 0.3s;
-  }
+}
+.P3 {
+    position: relative;
+    height: auto;
+    padding-bottom: 100em;
+    width: 100%;
+    resize: horizontal;
+    background-size: cover;
+    background-image: url(../asset/Rectangle\ 63.jpg);
+}
+.name {
+    width: 30%;
+    height: 10%;
+    background-color: grey;
+    opacity: 50%;
+    border: none;
+}
+.email {
+    width: 30%;
+    height: 10%;
+    background-color: grey;
+    opacity: 50%;
+}
+.text {
+    width: 30%;
+    height: 40%;
+    background-color: grey;
+    opacity: 50%;
+}
+.submit {
+    width: 30%;
+    height: 10%;
+    color: white;
+    border: 2px solid;
+    background-color: grey;
+    opacity: 50%;
+}
+/* web view */
+@media (min-width: 1024px)  {
+    .ul {
+        text-align: right;
+        list-style: none;
+    }   
+    .P1{
+        height: 580px;
+        width: 100%;
+    }
+    .hlight {
+        color: white;
+        font-size: 55px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+/* // moblie view */
+
+@media screen and (max-width: 1023px) {
+    .ul {
+        display: none;
+    }
+    .P1{
+        height: 380px;
+        width: 100%;
+        text-align: left !important
+    }
+    .hlight {
+        color: white;
+        font-size: 35px;
+        margin-top: 50px;
+        text-align: left !important
+    }   
+}
